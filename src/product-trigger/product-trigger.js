@@ -1,11 +1,14 @@
 const appendProductTriggerHTMLToDOM = () => {
-	const $productImage = document.querySelector('#single-product img')
+	const $productSlideLink = document.querySelector(
+		'#single-product .js-product-slide-link'
+	)
 	const $productName = document.querySelector('#single-product h1')
+	const imageSrc = $productSlideLink.href
 
 	const ProductTriggerHTML = `
 		<div class="product__trigger">
 			<div class="product__trigger__image__wrapper">
-				<img class="product__trigger__image" src="${$productImage.src}" alt="">
+				<img class="product__trigger__image" src="${imageSrc}" alt="">
 			</div>
 			<div class="product__trigger__content">
 				<div class="product__trigger__title">${$productName.innerText}</div>
