@@ -1,0 +1,16 @@
+{
+  "name": "nuvemshop-scripts",
+  "version": "0.0.1",
+  "description": "Scripts para instalar em lojas da nuvemshop via FTP ou painel",
+  "keywords": [
+    "nuvemshop"
+  ],
+  "author": "Jhonny Izidoro Menarim",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "git-commit-msg-linter": "^3.2.6"
+  }
+}
