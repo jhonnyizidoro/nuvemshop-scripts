@@ -1,6 +1,6 @@
 {
   "name": "nuvemshop-scripts",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Scripts para instalar em lojas da nuvemshop via FTP ou painel",
   "keywords": [
     "nuvemshop"
