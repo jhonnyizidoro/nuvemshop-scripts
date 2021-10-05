@@ -27,6 +27,7 @@ const appendProductTriggerStylesToDOM = (primaryColor = '#8A1D2E') => {
 			.product__trigger {
 				animation: __slideInUp 2s 1s forwards;
 				background: white;
+				border: 1px solid lightgrey;
 				border-radius: 8px;
 				bottom: 0;
 				box-shadow: 15px 34px 30px -20px rgba(0, 0, 0, 0.15);
@@ -37,7 +38,7 @@ const appendProductTriggerStylesToDOM = (primaryColor = '#8A1D2E') => {
 				right: 50%;
 				transform: translateX(50%) translateY(100%);
 				width: 380px;
-				z-index: 3;
+				z-index: 10;
 			}
 			.product__trigger__image__wrapper {
 				position: relative;
